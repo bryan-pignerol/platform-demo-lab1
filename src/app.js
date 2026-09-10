@@ -8,4 +8,7 @@ const server=http.createServer((req,res)=>{
   if(req.url==="/version"){res.writeHead(200);res.end(JSON.stringify({version:APP_VERSION}));return;}
   res.writeHead(404);res.end(JSON.stringify({error:"not found"}));
 });
+
+console.log("test");
+
 server.listen(PORT,()=>console.log(`${APP_NAME} listening on ${PORT}`));
