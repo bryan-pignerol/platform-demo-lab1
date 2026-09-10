@@ -12,4 +12,4 @@ on:
 
 jobs:
   platform-ci:
-    uses: GitFabien/platform-demo-lab1/.github/workflows/bryan-pignerol/ci.yml@main
+    uses: GitFabien/platform-demo-lab1/.github/workflows/ci-bryan-pignerol@main
