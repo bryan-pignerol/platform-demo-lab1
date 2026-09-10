@@ -1,4 +1,4 @@
-const http=require("node:http")
+const http=require("node:http");
 const PORT=Number(process.env.PORT||8080);
 const APP_NAME="platform-demo";
 const server=http.createServer((req,res)=>{
