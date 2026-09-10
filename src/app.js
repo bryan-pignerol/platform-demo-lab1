@@ -10,5 +10,6 @@ const server=http.createServer((req,res)=>{
 });
 
 console.log("test");
+console.log("test");
 
 server.listen(PORT,()=>console.log(`${APP_NAME} listening on ${PORT}`));
